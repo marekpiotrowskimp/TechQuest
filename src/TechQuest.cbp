@@ -1,0 +1,2619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TechQuest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\json\;CMake Files\lib\json\cmake\;CMake Files\lib\json\test\;CMake Files\lib\json\test\cmake_import\;CMake Files\lib\json\test\cmake_import_minver\;CMake Files\lib\json\test\cmake_add_subdirectory\;CMake Files\lib\json\test\cmake_fetch_content\;CMake Files\lib\json\test\cmake_target_include_directories\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TechQuest">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/TechQuest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 TechQuest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TechQuest/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/TechQuest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 TechQuest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="json_unit">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/json_unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 json_unit"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="json_unit/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/json_unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 json_unit/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-wstring">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-wstring" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-wstring"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-wstring/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-wstring" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-wstring/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-user_defined_input">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-user_defined_input" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-user_defined_input"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-user_defined_input/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-user_defined_input" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-user_defined_input/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-unicode">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-unicode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-unicode"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-unicode/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-unicode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-unicode/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-udt_macro">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-udt_macro" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-udt_macro"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-udt_macro/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-udt_macro" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-udt_macro/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-reference_access">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-reference_access" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-reference_access"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-reference_access/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-reference_access" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-reference_access/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-regression1">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-regression1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-regression1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-regression1/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-regression1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-regression1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-udt">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-udt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-udt"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-udt/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-udt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-udt/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-regression2">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-regression2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-regression2"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-regression2/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-regression2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-regression2/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-pointer_access">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-pointer_access" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-pointer_access"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-pointer_access/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-pointer_access" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-pointer_access/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ordered_json">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-ordered_json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-ordered_json"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ordered_json/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-ordered_json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-ordered_json/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-modifiers">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-modifiers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-modifiers"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-modifiers/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-modifiers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-modifiers/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-readme">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-readme" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-readme"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-readme/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-readme" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-readme/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doctest_main">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/CMakeFiles/doctest_main.dir/doctest_main.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 doctest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doctest_main/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/CMakeFiles/doctest_main.dir/doctest_main.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 doctest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-meta">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-meta" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-meta"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-meta/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-meta" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-meta/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-merge_patch">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-merge_patch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-merge_patch"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-merge_patch/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-merge_patch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-merge_patch/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ordered_map">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-ordered_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-ordered_map"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ordered_map/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-ordered_map" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-ordered_map/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-json_pointer">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-json_pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-json_pointer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-json_pointer/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-json_pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-json_pointer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-to_chars">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-to_chars" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-to_chars"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-to_chars/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-to_chars" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-to_chars/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-iterators2">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-iterators2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-iterators2"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-iterators2/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-iterators2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-iterators2/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-iterators1">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-iterators1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-iterators1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-iterators1/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-iterators1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-iterators1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-inspection">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-inspection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-inspection"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-inspection/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-inspection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-inspection/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-msgpack">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-msgpack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-msgpack"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-msgpack/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-msgpack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-msgpack/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-deserialization">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-deserialization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-deserialization"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-deserialization/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-deserialization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-deserialization/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-constructor2">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-constructor2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-constructor2"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-constructor2/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-constructor2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-constructor2/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-conversions">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-conversions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-conversions"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-conversions/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-conversions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-conversions/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-alt-string">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-alt-string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-alt-string"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-alt-string/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-alt-string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-alt-string/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-comparison">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-comparison" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-comparison"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-comparison/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-comparison" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-comparison/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-json_patch">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-json_patch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-json_patch"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-json_patch/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-json_patch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-json_patch/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-concepts">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-concepts" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-concepts"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-concepts/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-concepts" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-concepts/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-class_const_iterator">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-class_const_iterator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-class_const_iterator"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-class_const_iterator/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-class_const_iterator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-class_const_iterator/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-bson">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-bson" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-bson"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-bson/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-bson" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-bson/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-assert_macro">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-assert_macro" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-assert_macro"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-assert_macro/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-assert_macro" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-assert_macro/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-class_parser">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-class_parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-class_parser"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-class_parser/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-class_parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-class_parser/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-class_lexer">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-class_lexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-class_lexer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-class_lexer/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-class_lexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-class_lexer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-hash">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-hash" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-hash"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-hash/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-hash" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-hash/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-testsuites">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-testsuites" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-testsuites"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-testsuites/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-testsuites" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-testsuites/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-items">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-items" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-items"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-items/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-items" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-items/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="download_test_data">
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 download_test_data"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-element_access1">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-element_access1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-element_access1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-element_access1/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-element_access1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-element_access1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-cbor">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-cbor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-cbor"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-cbor/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-cbor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-cbor/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-large_json">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-large_json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-large_json"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-large_json/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-large_json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-large_json/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-allocator">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-allocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-allocator"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-allocator/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-allocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-allocator/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ubjson">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-ubjson" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-ubjson"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ubjson/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-ubjson" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-ubjson/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-noexcept">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-noexcept" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-noexcept"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-noexcept/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-noexcept" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-noexcept/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-serialization">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-serialization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-serialization"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-serialization/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-serialization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-serialization/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-element_access2">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-element_access2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-element_access2"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-element_access2/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-element_access2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-element_access2/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-class_iterator">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-class_iterator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-class_iterator"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-class_iterator/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-class_iterator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-class_iterator/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-constructor1">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-constructor1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-constructor1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-constructor1/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-constructor1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-constructor1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-capacity">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-capacity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-capacity"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-capacity/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-capacity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-capacity/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-convenience">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-convenience" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-convenience"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-convenience/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-convenience" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-convenience/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-algorithms">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-algorithms"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-algorithms/fast">
+				<Option output="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/test-algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOCTEST_CONFIG_SUPER_FAST_ASSERTS"/>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/include"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/doctest"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/thirdparty/fifo_map"/>
+					<Add directory="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 test-algorithms/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TQCommandLine.cpp">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TQCommandLine.h">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TQDataModels.cpp">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TQDataModels.h">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TQGameData.cpp">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TQGameData.h">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TQTools.cpp">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TQTools.h">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TechQuest.cpp">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TechQuest.h">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.obj">
+			<Option target="json_unit"/>
+			<Option target="test-wstring"/>
+			<Option target="test-user_defined_input"/>
+			<Option target="test-unicode"/>
+			<Option target="test-udt_macro"/>
+			<Option target="test-reference_access"/>
+			<Option target="test-regression1"/>
+			<Option target="test-udt"/>
+			<Option target="test-regression2"/>
+			<Option target="test-pointer_access"/>
+			<Option target="test-ordered_json"/>
+			<Option target="test-modifiers"/>
+			<Option target="test-readme"/>
+			<Option target="test-meta"/>
+			<Option target="test-merge_patch"/>
+			<Option target="test-ordered_map"/>
+			<Option target="test-json_pointer"/>
+			<Option target="test-to_chars"/>
+			<Option target="test-iterators2"/>
+			<Option target="test-iterators1"/>
+			<Option target="test-inspection"/>
+			<Option target="test-msgpack"/>
+			<Option target="test-deserialization"/>
+			<Option target="test-constructor2"/>
+			<Option target="test-conversions"/>
+			<Option target="test-alt-string"/>
+			<Option target="test-comparison"/>
+			<Option target="test-json_patch"/>
+			<Option target="test-concepts"/>
+			<Option target="test-class_const_iterator"/>
+			<Option target="test-bson"/>
+			<Option target="test-assert_macro"/>
+			<Option target="test-class_parser"/>
+			<Option target="test-class_lexer"/>
+			<Option target="test-hash"/>
+			<Option target="test-testsuites"/>
+			<Option target="test-items"/>
+			<Option target="test-element_access1"/>
+			<Option target="test-cbor"/>
+			<Option target="test-large_json"/>
+			<Option target="test-allocator"/>
+			<Option target="test-ubjson"/>
+			<Option target="test-noexcept"/>
+			<Option target="test-serialization"/>
+			<Option target="test-element_access2"/>
+			<Option target="test-class_iterator"/>
+			<Option target="test-constructor1"/>
+			<Option target="test-capacity"/>
+			<Option target="test-convenience"/>
+			<Option target="test-algorithms"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-algorithms.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-algorithms"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-allocator.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-allocator"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-alt-string.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-alt-string"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-assert_macro.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-assert_macro"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-bson.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-bson"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-capacity.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-capacity"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-cbor.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-cbor"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-class_const_iterator.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-class_const_iterator"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-class_iterator.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-class_iterator"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-class_lexer.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-class_lexer"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-class_parser.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-class_parser"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-comparison.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-comparison"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-concepts.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-concepts"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-constructor1.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-constructor1"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-constructor2.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-constructor2"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-convenience.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-convenience"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-conversions.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-conversions"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-deserialization.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-deserialization"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-element_access1.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-element_access1"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-element_access2.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-element_access2"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-hash.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-hash"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-inspection.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-inspection"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-items.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-items"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-iterators1.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-iterators1"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-iterators2.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-iterators2"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-json_patch.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-json_patch"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-json_pointer.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-json_pointer"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-large_json.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-large_json"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-merge_patch.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-merge_patch"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-meta.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-meta"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-modifiers.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-modifiers"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-msgpack.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-msgpack"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-noexcept.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-noexcept"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-ordered_json.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-ordered_json"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-ordered_map.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-ordered_map"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-pointer_access.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-pointer_access"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-readme.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-readme"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-reference_access.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-reference_access"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-regression1.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-regression1"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-regression2.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-regression2"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-serialization.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-serialization"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-testsuites.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-testsuites"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-to_chars.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-to_chars"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-ubjson.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-ubjson"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-udt.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-udt"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-udt_macro.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-udt_macro"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-unicode.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-unicode"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-user_defined_input.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-user_defined_input"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit-wstring.cpp">
+			<Option target="json_unit"/>
+			<Option target="test-wstring"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/src/unit.cpp">
+			<Option target="doctest_main"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/server.cpp">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/server.h">
+			<Option target="TechQuest"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/CMakeCache.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/TechQuestConfig.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\json\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/cmake/download_test_data.cmake">
+			<Option virtualFolder="CMake Files\lib\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\lib\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\lib\json\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\json\test\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/cmake_import/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\json\test\cmake_import\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/cmake_import_minver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\json\test\cmake_import_minver\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/cmake_add_subdirectory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\json\test\cmake_add_subdirectory\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/cmake_fetch_content/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\json\test\cmake_fetch_content\"/>
+		</Unit>
+		<Unit filename="/Users/marek.piotrowski/Projects/TechQuest/src/lib/json/test/cmake_target_include_directories/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\json\test\cmake_target_include_directories\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
