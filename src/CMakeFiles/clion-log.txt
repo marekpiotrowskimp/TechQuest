@@ -1,0 +1,12 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /Users/marek.piotrowski/Projects/TechQuest/src
+System is unknown to cmake, create:
+Platform/unix to use this system, please send your config file to cmake@www.cmake.org so it can be added to cmake
+Your CMakeCache.txt file was copied to CopyOfCMakeCache.txt. Please send that file to cmake@www.cmake.org.
+-- Using the single-header code from /Users/marek.piotrowski/Projects/TechQuest/src/lib/json/single_include/
+-- Found Git: /usr/local/bin/git (found version "2.28.0") 
+-- Operating system: unix; ProductName:	Mac OS X; ProductVersion:	10.14.6; BuildVersion:	18G6020; Darwin gdnmacdapd102.corp.gds.jeppesen.com 18.7.0 Darwin Kernel Version 18.7.0: Thu Jun 18 20:50:10 PDT 2020; root:xnu-4903.278.43~1/RELEASE_X86_64 x86_64
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
+-- Compiler: Apple clang version 11.0.0 (clang-1100.0.33.17); Target: x86_64-apple-darwin18.7.0; Thread model: posix; InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/marek.piotrowski/Projects/TechQuest/src

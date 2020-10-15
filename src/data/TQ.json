@@ -1,0 +1,53 @@
+{
+  "state": {
+    "placeIndex" : 1
+  },
+
+  "places" : [
+    {"id": 1, "name": "Memory bank 1", "description": "You are in memory bank 1. Here you can find a lot of files with information.", "discovered": 0, "items": [1, 2], "actions": [{"id": 1, "value": 2}]},
+    {"id": 2, "name": "Memory bank 2", "description": "You are in memory bank 2. Here you can find a lot of files with information.", "discovered": 0, "items": [], "actions": [{"id": 2, "value": 1}]}],
+  "actions" : [
+    {"id": 1, "name": "GO West", "description": "You can go west", "type": "go", "influence": [{"id": 5, "value": -0.5}, {"id": 6, "value": -1}]},
+    {"id": 2, "name": "GO East", "description": "You can go east", "type": "go", "influence": [{"id": 5, "value": -0.5}, {"id": 6, "value": -1}]},
+    {"id": 3, "name": "GO North", "description": "You can go north", "type": "go", "influence": [{"id": 5, "value": -0.5}, {"id": 6, "value": -1}]},
+    {"id": 4, "name": "GO South", "description": "You can go south", "type": "go", "influence": [{"id": 5, "value": -0.5}, {"id": 6, "value": -1}]},
+    {"id": 5, "name": "Read", "description": "You can read document", "type": "read", "influence": [{"id": 3, "value": 0.1}]},
+    {"id": 6, "name": "Show", "description": "You can see image", "type": "read", "influence": [{"id": 3, "value": 0.1}]}
+  ],
+  "items" : [
+    {"id": 1, "name": "Image file", "description": "File with information in image", "resources": "TechQuest.txt", "type": 1, "actions": [{"id": 6, "value": 0}]},
+    {"id": 2, "name": "Document file", "description": "Some information", "resources": "", "type": 2, "actions": [{"id": 6, "value": 0}]}
+  ],
+  "attributes": [
+    {"id": 1, "name": "strength", "min": 0, "max": 100},
+    {"id": 2, "name": "speed", "min": 0, "max": 100},
+    {"id": 3, "name": "experience", "min": 0, "max": 100},
+    {"id": 4, "name": "health", "min": 0, "max": 100},
+    {"id": 5, "name": "tiredness", "min": 0, "max": 100},
+    {"id": 6, "name": "energy", "min": 0, "max": 100}
+  ],
+  "player": {
+    "name": "Player 1",
+    "attributes": [
+      {"id":  1, "value": 1},
+      {"id":  2, "value": 10},
+      {"id":  3, "value": 0},
+      {"id":  4, "value": 100},
+      {"id":  5, "value": 0},
+      {"id":  6, "value": 50}
+    ]
+  },
+
+  "commands": [
+    {"id": 1, "command": "help", "description": "Show list of command."},
+    {"id": 2, "command": "player", "description": "Show status of player."},
+    {"id": 3, "command": "save", "description": "Save game."},
+    {"id": 4, "command": "load", "description": "Load game."},
+    {"id": 5, "command": "where", "description": "Show where you are."},
+    {"id": 6, "command": "action", "description": "Execute action."},
+    {"id": 7, "command": "discover", "description": "Discover items in place."},
+    {"id": 8, "command": "use", "description": "-------------"},
+    {"id": 100, "command": "END", "description": "End of TechQuest."},
+    {"id": 101, "command": "clear", "description": "Clear screen."}
+  ]
+}
