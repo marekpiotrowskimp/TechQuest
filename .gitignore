@@ -57,3 +57,6 @@ src/.idea/**/libraries
 src/lib/
 src/lib/json/
 src/.idea/
+src/CopyOfCMakeCache.txt
+src/CMakeFiles/clion-log.txt
+src/CMakeFiles/TechQuest.dir/CXX.includecache
