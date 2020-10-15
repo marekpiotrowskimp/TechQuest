@@ -10,8 +10,6 @@
 #include <regex>
 #include <nlohmann/json.hpp>
 
-
-
 namespace gameType {
     using nlohmann::json;
 
@@ -26,17 +24,17 @@ namespace gameType {
         return get_untyped(j, property.data());
     }
 
-    struct InfluenceElement {
+    struct Influence {
         int64_t id;
         double value;
     };
 
-    struct Action {
+    struct GameDataAction {
         int64_t id;
         std::string name;
         std::string description;
         std::string type;
-        std::vector<InfluenceElement> influence;
+        std::vector<Influence> influence;
     };
 
     struct GameDataAttribute {
@@ -52,26 +50,38 @@ namespace gameType {
         std::string description;
     };
 
+    struct ItemAction {
+        int64_t id;
+        int64_t value;
+    };
+
     struct Item {
         int64_t id;
         std::string name;
         std::string description;
         std::string resources;
         int64_t type;
-        std::vector<InfluenceElement> actions;
+        std::vector<ItemAction> actions;
     };
 
     struct Place {
         int64_t id;
         std::string name;
         std::string description;
+        int64_t discovered;
         std::vector<int64_t> items;
-        std::vector<InfluenceElement> actions;
+        std::vector<ItemAction> actions;
+    };
+
+    struct PlayerAttribute {
+        int64_t id;
+        double value;
+        double time;
     };
 
     struct Player {
         std::string name;
-        std::vector<InfluenceElement> attributes;
+        std::vector<PlayerAttribute> attributes;
     };
 
     struct State {
@@ -81,7 +91,7 @@ namespace gameType {
     struct GameData {
         State state;
         std::vector<Place> places;
-        std::vector<Action> actions;
+        std::vector<GameDataAction> actions;
         std::vector<Item> items;
         std::vector<GameDataAttribute> attributes;
         Player player;
@@ -90,11 +100,11 @@ namespace gameType {
 }
 
 namespace nlohmann {
-    void from_json(const json & j, gameType::InfluenceElement & x);
-    void to_json(json & j, const gameType::InfluenceElement & x);
+    void from_json(const json & j, gameType::Influence & x);
+    void to_json(json & j, const gameType::Influence & x);
 
-    void from_json(const json & j, gameType::Action & x);
-    void to_json(json & j, const gameType::Action & x);
+    void from_json(const json & j, gameType::GameDataAction & x);
+    void to_json(json & j, const gameType::GameDataAction & x);
 
     void from_json(const json & j, gameType::GameDataAttribute & x);
     void to_json(json & j, const gameType::GameDataAttribute & x);
@@ -102,11 +112,17 @@ namespace nlohmann {
     void from_json(const json & j, gameType::Command & x);
     void to_json(json & j, const gameType::Command & x);
 
+    void from_json(const json & j, gameType::ItemAction & x);
+    void to_json(json & j, const gameType::ItemAction & x);
+
     void from_json(const json & j, gameType::Item & x);
     void to_json(json & j, const gameType::Item & x);
 
     void from_json(const json & j, gameType::Place & x);
     void to_json(json & j, const gameType::Place & x);
+
+    void from_json(const json & j, gameType::PlayerAttribute & x);
+    void to_json(json & j, const gameType::PlayerAttribute & x);
 
     void from_json(const json & j, gameType::Player & x);
     void to_json(json & j, const gameType::Player & x);
@@ -117,26 +133,26 @@ namespace nlohmann {
     void from_json(const json & j, gameType::GameData & x);
     void to_json(json & j, const gameType::GameData & x);
 
-    inline void from_json(const json & j, gameType::InfluenceElement& x) {
+    inline void from_json(const json & j, gameType::Influence& x) {
         x.id = j.at("id").get<int64_t>();
         x.value = j.at("value").get<double>();
     }
 
-    inline void to_json(json & j, const gameType::InfluenceElement & x) {
+    inline void to_json(json & j, const gameType::Influence & x) {
         j = json::object();
         j["id"] = x.id;
         j["value"] = x.value;
     }
 
-    inline void from_json(const json & j, gameType::Action& x) {
+    inline void from_json(const json & j, gameType::GameDataAction& x) {
         x.id = j.at("id").get<int64_t>();
         x.name = j.at("name").get<std::string>();
         x.description = j.at("description").get<std::string>();
         x.type = j.at("type").get<std::string>();
-        x.influence = j.at("influence").get<std::vector<gameType::InfluenceElement>>();
+        x.influence = j.at("influence").get<std::vector<gameType::Influence>>();
     }
 
-    inline void to_json(json & j, const gameType::Action & x) {
+    inline void to_json(json & j, const gameType::GameDataAction & x) {
         j = json::object();
         j["id"] = x.id;
         j["name"] = x.name;
@@ -173,13 +189,24 @@ namespace nlohmann {
         j["description"] = x.description;
     }
 
+    inline void from_json(const json & j, gameType::ItemAction& x) {
+        x.id = j.at("id").get<int64_t>();
+        x.value = j.at("value").get<int64_t>();
+    }
+
+    inline void to_json(json & j, const gameType::ItemAction & x) {
+        j = json::object();
+        j["id"] = x.id;
+        j["value"] = x.value;
+    }
+
     inline void from_json(const json & j, gameType::Item& x) {
         x.id = j.at("id").get<int64_t>();
         x.name = j.at("name").get<std::string>();
         x.description = j.at("description").get<std::string>();
         x.resources = j.at("resources").get<std::string>();
         x.type = j.at("type").get<int64_t>();
-        x.actions = j.at("actions").get<std::vector<gameType::InfluenceElement>>();
+        x.actions = j.at("actions").get<std::vector<gameType::ItemAction>>();
     }
 
     inline void to_json(json & j, const gameType::Item & x) {
@@ -196,8 +223,9 @@ namespace nlohmann {
         x.id = j.at("id").get<int64_t>();
         x.name = j.at("name").get<std::string>();
         x.description = j.at("description").get<std::string>();
+        x.discovered = j.at("discovered").get<int64_t>();
         x.items = j.at("items").get<std::vector<int64_t>>();
-        x.actions = j.at("actions").get<std::vector<gameType::InfluenceElement>>();
+        x.actions = j.at("actions").get<std::vector<gameType::ItemAction>>();
     }
 
     inline void to_json(json & j, const gameType::Place & x) {
@@ -205,13 +233,27 @@ namespace nlohmann {
         j["id"] = x.id;
         j["name"] = x.name;
         j["description"] = x.description;
+        j["discovered"] = x.discovered;
         j["items"] = x.items;
         j["actions"] = x.actions;
     }
 
+    inline void from_json(const json & j, gameType::PlayerAttribute& x) {
+        x.id = j.at("id").get<int64_t>();
+        x.value = j.at("value").get<double>();
+        x.time = j.at("time").get<double>();
+    }
+
+    inline void to_json(json & j, const gameType::PlayerAttribute & x) {
+        j = json::object();
+        j["id"] = x.id;
+        j["value"] = x.value;
+        j["time"] = x.time;
+    }
+
     inline void from_json(const json & j, gameType::Player& x) {
         x.name = j.at("name").get<std::string>();
-        x.attributes = j.at("attributes").get<std::vector<gameType::InfluenceElement>>();
+        x.attributes = j.at("attributes").get<std::vector<gameType::PlayerAttribute>>();
     }
 
     inline void to_json(json & j, const gameType::Player & x) {
@@ -232,7 +274,7 @@ namespace nlohmann {
     inline void from_json(const json & j, gameType::GameData& x) {
         x.state = j.at("state").get<gameType::State>();
         x.places = j.at("places").get<std::vector<gameType::Place>>();
-        x.actions = j.at("actions").get<std::vector<gameType::Action>>();
+        x.actions = j.at("actions").get<std::vector<gameType::GameDataAction>>();
         x.items = j.at("items").get<std::vector<gameType::Item>>();
         x.attributes = j.at("attributes").get<std::vector<gameType::GameDataAttribute>>();
         x.player = j.at("player").get<gameType::Player>();
@@ -250,6 +292,5 @@ namespace nlohmann {
         j["commands"] = x.commands;
     }
 }
-
 
 #endif //TECHQUEST_TQDATAMODELS_H

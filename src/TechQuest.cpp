@@ -10,7 +10,7 @@ int main(int argc, char const *argv[]) {
   tqCommandLine->invitation();
   bool endGame = true;
   while (endGame) {
-      std::cout << ">";
+      std::cout << std::endl << ">";
 
       getline(std::cin, line);
 
