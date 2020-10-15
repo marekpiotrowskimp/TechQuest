@@ -4,19 +4,24 @@
   },
 
   "places" : [
-    {"id": 1, "name": "Memory bank 1", "description": "You are in memory bank 1. Here you can find a lot of files with information.", "discovered": 0, "items": [1, 2], "actions": [{"id": 1, "value": 2}]},
-    {"id": 2, "name": "Memory bank 2", "description": "You are in memory bank 2. Here you can find a lot of files with information.", "discovered": 0, "items": [], "actions": [{"id": 2, "value": 1}]}],
+    {"id": 1, "name": "Memory bank 1", "description": "You are in memory bank 1. Here you can find a lot of files with information.", "discovered": 0, "items": [1, 2], "actions": [{"id": 1, "value": 2}, {"id": 4, "value": 4}]},
+    {"id": 2, "name": "Memory bank 2", "description": "You are in memory bank 2. Here you can find a lot of files with information.", "discovered": 0, "items": [], "actions": [{"id": 2, "value": 1}]},
+    {"id": 3, "name": "Main CPU", "description": "You are in main CPU.", "discovered": 0, "items": [3], "actions": [{"id": 1, "value": 4}]},
+    {"id": 4, "name": "Bridge", "description": "You are in bridge between main CPU and periphery.", "discovered": 0, "items": [3], "actions": [{"id": 2, "value": 3}, {"id": 3, "value": 1}]}
+  ],
   "actions" : [
-    {"id": 1, "name": "GO West", "description": "You can go west", "type": "go", "influence": [{"id": 5, "value": -0.5}, {"id": 6, "value": -1}]},
-    {"id": 2, "name": "GO East", "description": "You can go east", "type": "go", "influence": [{"id": 5, "value": -0.5}, {"id": 6, "value": -1}]},
-    {"id": 3, "name": "GO North", "description": "You can go north", "type": "go", "influence": [{"id": 5, "value": -0.5}, {"id": 6, "value": -1}]},
-    {"id": 4, "name": "GO South", "description": "You can go south", "type": "go", "influence": [{"id": 5, "value": -0.5}, {"id": 6, "value": -1}]},
+    {"id": 1, "name": "GO West", "description": "You can go west", "type": "go", "influence": [{"id": 5, "value": 0.5}, {"id": 6, "value": -1}]},
+    {"id": 2, "name": "GO East", "description": "You can go east", "type": "go", "influence": [{"id": 5, "value": 0.5}, {"id": 6, "value": -1}]},
+    {"id": 3, "name": "GO North", "description": "You can go north", "type": "go", "influence": [{"id": 5, "value": 0.5}, {"id": 6, "value": -1}]},
+    {"id": 4, "name": "GO South", "description": "You can go south", "type": "go", "influence": [{"id": 5, "value": 0.5}, {"id": 6, "value": -1}]},
     {"id": 5, "name": "Read", "description": "You can read document", "type": "read", "influence": [{"id": 3, "value": 0.1}]},
-    {"id": 6, "name": "Show", "description": "You can see image", "type": "read", "influence": [{"id": 3, "value": 0.1}]}
+    {"id": 6, "name": "Show", "description": "You can see image", "type": "read", "influence": [{"id": 3, "value": 0.1}]},
+    {"id": 7, "name": "Use", "description": "You can use this item", "type": "use", "influence": [{"id": 6, "value": 10}]}
   ],
   "items" : [
     {"id": 1, "name": "Image file", "description": "File with information in image", "resources": "TechQuest.txt", "type": 1, "actions": [{"id": 6, "value": 0}]},
-    {"id": 2, "name": "Document file", "description": "Some information", "resources": "", "type": 2, "actions": [{"id": 6, "value": 0}]}
+    {"id": 2, "name": "Document file", "description": "Some information", "resources": "", "type": 2, "actions": [{"id": 5, "value": 0}]},
+    {"id": 3, "name": "Energy", "description": "Some energy", "resources": "", "type": 3, "actions": [{"id": 7, "value": 0}]}
   ],
   "attributes": [
     {"id": 1, "name": "strength", "min": 0, "max": 100},
@@ -29,12 +34,12 @@
   "player": {
     "name": "Player 1",
     "attributes": [
-      {"id":  1, "value": 1},
-      {"id":  2, "value": 10},
-      {"id":  3, "value": 0},
-      {"id":  4, "value": 100},
-      {"id":  5, "value": 0},
-      {"id":  6, "value": 50}
+      {"id":  1, "value": 1.0, "time": 1.1},
+      {"id":  2, "value": 10.5, "time": 1.1},
+      {"id":  3, "value": 0.0, "time": 1.1},
+      {"id":  4, "value": 100.0, "time": 1.1},
+      {"id":  5, "value": 0.0, "time": -1.1},
+      {"id":  6, "value": 50.0, "time": 1.1}
     ]
   },
 

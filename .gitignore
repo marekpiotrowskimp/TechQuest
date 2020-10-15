@@ -1,6 +1,29 @@
 # Prerequisites
 *.d
 
+# User-specific stuff
+src/.idea/**/workspace.xml
+src/.idea/**/tasks.xml
+src/.idea/**/usage.statistics.xml
+src/.idea/**/dictionaries
+src/.idea/**/shelf
+
+# Generated files
+src/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+src/.idea/**/dataSources/
+src/.idea/**/dataSources.ids
+src/.idea/**/dataSources.local.xml
+src/.idea/**/sqlDataSources.xml
+src/.idea/**/dynamic.xml
+src/.idea/**/uiDesigner.xml
+src/.idea/**/dbnavigator.xml
+
+# Gradle
+src/.idea/**/gradle.xml
+src/.idea/**/libraries
+
 # Compiled Object files
 *.slo
 *.lo
@@ -34,3 +57,6 @@
 src/lib/
 src/lib/json/
 src/.idea/
+src/CopyOfCMakeCache.txt
+src/CMakeFiles/clion-log.txt
+src/CMakeFiles/TechQuest.dir/CXX.includecache

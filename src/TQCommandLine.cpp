@@ -1,3 +1,4 @@
+
 #include "TQCommandLine.h"
 
 
@@ -16,36 +17,20 @@ TQCommandLine::TQCommandLine() {
     tqGameData->load();
 }
 
-void TQCommandLine::invitation() {
-    std::string image = getfile("TechQuest.txt");
-    std::cout << image;
-    showPlace();
+std::vector<gameType::Place>::iterator TQCommandLine::getPlaceIter(int placeIndex) const {
+    return find_if(tqGameData->gameData.places.begin(), tqGameData->gameData.places.end(), [&placeIndex](const gameType::Place& obj) {return obj.id == placeIndex;});
 }
 
-
-void TQCommandLine::showPlace() {
-    auto place = getPlaceIter(tqGameData->gameData.state.placeIndex);
-    if (place != tqGameData->gameData.places.end()) {
-        std::cout << "[ " << place->name << " ]" << std::endl;
-        std::cout << place->description << std::endl;
-
-        for (auto actionParams : place->actions) {
-            auto action = getActionIter(actionParams.id);
-            auto placeAction = getPlaceIter(actionParams.value);
-            if ((action != tqGameData->gameData.actions.end()) && (placeAction != tqGameData->gameData.places.end())) {
-                std::cout << "ACTIONS" << std::endl;
-                std::cout << "(" << std::setw(3) << action->id << ")" << std::setw(10) << action->name << "  -  " << action->description << " to " <<  placeAction->name << std::endl;
-            }
-        }
-    }
+std::vector<gameType::GameDataAction>::iterator TQCommandLine::getActionIter(int actionIndex) const {
+    return find_if(tqGameData->gameData.actions.begin(), tqGameData->gameData.actions.end(), [&actionIndex](const gameType::GameDataAction& obj){ return obj.id == actionIndex;});
 }
 
-std::vector<gameType::Place>::iterator TQCommandLine::getPlaceIter(int actionValue) const {
-    return find_if(tqGameData->gameData.places.begin(), tqGameData->gameData.places.end(), [&actionValue](const gameType::Place& obj) {return obj.id == actionValue;});
+std::vector<gameType::PlayerAttribute>::iterator TQCommandLine::getPlayerAttributesIter(int attributeIndex) const {
+    return find_if(tqGameData->gameData.player.attributes.begin(), tqGameData->gameData.player.attributes.end(), [&attributeIndex](const gameType::PlayerAttribute& obj){ return obj.id == attributeIndex;});
 }
 
-std::vector<gameType::Action>::iterator TQCommandLine::getActionIter(int actionIndex) const {
-    return find_if(tqGameData->gameData.actions.begin(), tqGameData->gameData.actions.end(), [&actionIndex](const gameType::Action& obj){ return obj.id == actionIndex;});
+std::vector<gameType::ItemAction>::iterator TQCommandLine::getPlaceActionsIter(int actionIndex, const std::vector<gameType::Place, std::allocator<gameType::Place>>::iterator &place) const {
+    return find_if(place->actions.begin(), place->actions.end(), [&actionIndex](const gameType::ItemAction& obj){ return obj.id == actionIndex;});
 }
 
 bool TQCommandLine::analyzeCommand(std::string line) {
@@ -53,7 +38,6 @@ bool TQCommandLine::analyzeCommand(std::string line) {
     if (commandsParts.empty()) {
         return false;
     }
-
     gameType::Command command = getCommand( *commandsParts.begin() );
     commandsParts.erase(commandsParts.begin());
     switch (command.id) {
@@ -70,12 +54,16 @@ bool TQCommandLine::analyzeCommand(std::string line) {
         case 4:
             tqGameData->loadGameState();
             std::cout << "Game loaded " << std::endl;
+            invitation();
             break;
         case 5:
             showPlace();
             break;
         case 6:
             goToAnotherPlace(commandsParts);
+            break;
+        case 7:
+            discoverItems(tqGameData->gameData.state.placeIndex);
             break;
         case 100:
             tqGameData->saveGameState();
@@ -94,20 +82,68 @@ void TQCommandLine::goToAnotherPlace(std::vector<std::string> commandsParts) {
         return;
     }
     int actionIndex = std::stoi(commandsParts.front());
-    auto place = getPlaceIter(actionIndex);
+    auto place = getPlaceIter(tqGameData->gameData.state.placeIndex);
     if (place != tqGameData->gameData.places.end()) {
-        auto actionValue = find_if(place->actions.begin(), place->actions.end(), [&actionIndex](const gameType::InfluenceElement& obj){ return obj.id == actionIndex;});
-        if (actionValue != place->actions.end()) {
-            auto place = getPlaceIter(actionValue->value);
-            if (place != tqGameData->gameData.places.end()) {
-                std::cout << actionIndex << "START" << std::endl;
-                tqGameData->gameData.state.placeIndex = actionValue->value;
+        auto placeAction = getPlaceActionsIter(actionIndex, place);
+        if (placeAction != place->actions.end()) {
+            auto actionIter = getActionIter(placeAction->id);
+            auto newPlace = getPlaceIter((int)placeAction->value);
+            if ((newPlace != tqGameData->gameData.places.end()) && (actionIter != tqGameData->gameData.actions.end())) {
+                tqGameData->gameData.state.placeIndex = placeAction->value;
+                updatePlayerAttributes(actionIter->influence);
             }
         }
-
-
     }
+    wait(waitTimeMultiply);
     showPlace();
+}
+
+void TQCommandLine::discoverItems(int placeIndex) {
+    auto placeIter = getPlaceIter(placeIndex);
+    placeIter->discovered = true;
+    showItems(placeIter->items);
+}
+
+void TQCommandLine::updatePlayerAttributes(std::vector<gameType::Influence> influences) {
+    for (auto influence : influences) {
+        auto attribute = getPlayerAttributesIter(influence.id);
+        attribute->value += influence.value;
+    }
+}
+
+void TQCommandLine::invitation() {
+    std::string image = getfile("TechQuest.txt");
+    std::cout << image;
+    showPlayer();
+    std::cout << std::endl;
+    showPlace();
+}
+
+void TQCommandLine::showItems(std::vector<int64_t> items) {
+    std::cout << "--- Items ---" << std::endl;
+    for (auto item : items) {
+        auto itemIter = find_if( tqGameData->gameData.items.begin(), tqGameData->gameData.items.end(), [&item](const gameType::Item& obj){ return obj.id == item;});
+        std::cout << "(" << std::setw(3) << itemIter->id << ")" << std::setw(10) << itemIter->name << "  -  " << itemIter->description << " actions " <<  /*placeAction->name <<*/ std::endl;
+    }
+}
+
+void TQCommandLine::showPlace() {
+    auto place = getPlaceIter(tqGameData->gameData.state.placeIndex);
+    if (place != tqGameData->gameData.places.end()) {
+        std::cout << "[ " << place->name << " ]" << std::endl;
+        std::cout << place->description << std::endl;
+        std::cout << "--- Actions ---" << std::endl;
+        for (auto actionParams : place->actions) {
+            auto action = getActionIter(actionParams.id);
+            auto placeAction = getPlaceIter(actionParams.value);
+            if ((action != tqGameData->gameData.actions.end()) && (placeAction != tqGameData->gameData.places.end())) {
+                std::cout << "(" << std::setw(3) << action->id << ")" << std::setw(10) << action->name << "  -  " << action->description << " to " <<  placeAction->name << std::endl;
+            }
+        }
+        if (place->discovered) {
+            showItems(place->items);
+        }
+    }
 }
 
 void TQCommandLine::showPlayer() {
@@ -119,7 +155,7 @@ void TQCommandLine::showPlayer() {
 }
 
 void TQCommandLine::showHelp() {
-    std::cout << " ---- HELP ---- " << std::endl;
+    std::cout << "           ---- HELP ---- " << std::endl;
     for (auto command : tqGameData->gameData.commands) {
         std::cout << " " << std::setw(10) << command.command << " - " << command.description << std::endl;
     }
@@ -142,6 +178,23 @@ gameType::Command TQCommandLine::getCommand(std::string line) {
     }
     return gameType::Command();
 }
+
+void TQCommandLine::wait(double multiply) {
+    double time = (double)(tqGameData->gameData.player.attributes.size() * 100);
+    for (auto playerAttributes : tqGameData->gameData.player.attributes) {
+        time -= playerAttributes.value * playerAttributes.time;
+    }
+    time *= multiply;
+    std::cout << "[action in progress]";
+    while (time > 0) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        time -= 100;
+        std::cout << "#" << std::flush;
+    }
+    std::cout << "[END]" << std::endl;
+}
+
+
 
 
 
