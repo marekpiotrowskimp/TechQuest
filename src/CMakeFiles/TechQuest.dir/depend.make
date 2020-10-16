@@ -30,6 +30,11 @@ CMakeFiles/TechQuest.dir/TechQuest.cpp.obj: TechQuestConfig.h
 CMakeFiles/TechQuest.dir/TechQuest.cpp.obj: server.h
 CMakeFiles/TechQuest.dir/TechQuest.cpp.obj: lib/json/single_include/nlohmann/json.hpp
 
+CMakeFiles/TechQuest.dir/server.cpp.obj: TQCommandLine.h
+CMakeFiles/TechQuest.dir/server.cpp.obj: TQDataModels.h
+CMakeFiles/TechQuest.dir/server.cpp.obj: TQGameData.h
+CMakeFiles/TechQuest.dir/server.cpp.obj: TQTools.h
 CMakeFiles/TechQuest.dir/server.cpp.obj: server.cpp
 CMakeFiles/TechQuest.dir/server.cpp.obj: server.h
+CMakeFiles/TechQuest.dir/server.cpp.obj: lib/json/single_include/nlohmann/json.hpp
 

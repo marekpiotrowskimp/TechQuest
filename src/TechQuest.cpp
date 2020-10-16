@@ -4,9 +4,10 @@ int main(int argc, char const *argv[]) {
   std::cout << "TechQuest Server" << std::endl;
   std::cout << "Version " << TechQuest_VERSION_MAJOR << "."
               << TechQuest_VERSION_MINOR << std::endl;
-//  server();
+  SocketServer socketServer = SocketServer();
+  socketServer.server();
   std::string line;
-  TQCommandLine *tqCommandLine = new TQCommandLine();
+  TQCommandLine *tqCommandLine = new TQCommandLine(std::function<void(void)>());
   tqCommandLine->invitation();
   bool endGame = true;
   while (endGame) {

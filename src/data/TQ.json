@@ -52,7 +52,7 @@
     {"id": 6, "command": "action", "description": "Execute action."},
     {"id": 7, "command": "discover", "description": "Discover items in place."},
     {"id": 8, "command": "use", "description": "-------------"},
-    {"id": 100, "command": "END", "description": "End of TechQuest."},
+    {"id": 100, "command": "end", "description": "End of TechQuest."},
     {"id": 101, "command": "clear", "description": "Clear screen."}
   ]
 }

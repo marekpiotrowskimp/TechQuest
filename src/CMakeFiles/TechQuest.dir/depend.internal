@@ -31,5 +31,10 @@ CMakeFiles/TechQuest.dir/TechQuest.cpp.obj
  /Users/marek.piotrowski/Projects/TechQuest/src/server.h
  lib/json/single_include/nlohmann/json.hpp
 CMakeFiles/TechQuest.dir/server.cpp.obj
+ /Users/marek.piotrowski/Projects/TechQuest/src/TQCommandLine.h
+ /Users/marek.piotrowski/Projects/TechQuest/src/TQDataModels.h
+ /Users/marek.piotrowski/Projects/TechQuest/src/TQGameData.h
+ /Users/marek.piotrowski/Projects/TechQuest/src/TQTools.h
  /Users/marek.piotrowski/Projects/TechQuest/src/server.cpp
  /Users/marek.piotrowski/Projects/TechQuest/src/server.h
+ lib/json/single_include/nlohmann/json.hpp

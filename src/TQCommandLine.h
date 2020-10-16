@@ -14,6 +14,7 @@
 #include "TQTools.h"
 
 class TQCommandLine {
+    std::function<void(void)> outputSwitch;
     const double waitTimeMultiply = 5;
     TQGameData *tqGameData = new TQGameData();
     std::string getfile(std::string fileName);
@@ -37,7 +38,7 @@ public:
     bool analyzeCommand(std::string line);
     void invitation();
     void showPlace();
-    TQCommandLine();
+    TQCommandLine(std::function<void(void)> outputSwitch);
 
 
 
