@@ -12,10 +12,11 @@
 #include <nlohmann/json.hpp>
 #include "TQGameData.h"
 #include "TQTools.h"
+#include "server.h"
 
 class TQCommandLine {
-    std::function<void(void)> outputSwitch;
     const double waitTimeMultiply = 5;
+    std::stringstream print;
     TQGameData *tqGameData = new TQGameData();
     std::string getfile(std::string fileName);
 
@@ -25,22 +26,22 @@ class TQCommandLine {
     gameType::GameDataAttribute getAttribute(int index);
     gameType::Command getCommand(std::string line);
     void goToAnotherPlace(std::vector<std::string> commandsParts);
+    void useItem(std::vector<std::string> commandsParts);
+    void getItem(std::vector<std::string> commandsParts);
     void updatePlayerAttributes(std::vector<gameType::Influence> influences);
     void wait(double multiply);
     void discoverItems(int placeIndex);
-
 
     [[nodiscard]] std::vector<gameType::GameDataAction, std::allocator<gameType::GameDataAction>>::iterator getActionIter(int actionIndex) const;
     [[nodiscard]] std::vector<gameType::Place, std::allocator<gameType::Place>>::iterator getPlaceIter(int placeIndex) const;
     [[nodiscard]] std::vector<gameType::PlayerAttribute, std::allocator<gameType::PlayerAttribute>>::iterator getPlayerAttributesIter(int attributeIndex) const;
     [[nodiscard]] std::vector<gameType::ItemAction, std::allocator<gameType::ItemAction>>::iterator getPlaceActionsIter(int actionIndex, const std::vector<gameType::Place, std::allocator<gameType::Place>>::iterator &place) const;
 public:
+    std::function<void(std::basic_stringstream<char>&)> syncData;
     bool analyzeCommand(std::string line);
     void invitation();
     void showPlace();
-    TQCommandLine(std::function<void(void)> outputSwitch);
-
-
+    TQCommandLine(std::function<void(std::basic_stringstream<char>&)> syncData);
 
 };
 

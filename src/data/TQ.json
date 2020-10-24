@@ -33,6 +33,7 @@
   ],
   "player": {
     "name": "Player 1",
+    "backpack": {"max": 10, "items": [3]},
     "attributes": [
       {"id":  1, "value": 1.0, "time": 1.1},
       {"id":  2, "value": 10.5, "time": 1.1},
@@ -51,7 +52,9 @@
     {"id": 5, "command": "where", "description": "Show where you are."},
     {"id": 6, "command": "action", "description": "Execute action."},
     {"id": 7, "command": "discover", "description": "Discover items in place."},
-    {"id": 8, "command": "use", "description": "-------------"},
+    {"id": 8, "command": "use", "description": "Use a item"},
+    {"id": 9, "command": "get", "description": "Get a item"},
+    {"id": 99, "command": "---------", "description": "-------------"},
     {"id": 100, "command": "end", "description": "End of TechQuest."},
     {"id": 101, "command": "clear", "description": "Clear screen."}
   ]

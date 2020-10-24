@@ -7,11 +7,6 @@ void error(const char *msg)
     exit(1);
 }
 
-void NetworkBuff::setSocket(int socket) {
-    this->socket = socket;
-}
-
-
 std::streambuf::int_type NetworkBuff::overflow (int_type c) {
     if (c != traits_type::eof()) {
         c = std::toupper(static_cast<char>(c),getloc());
@@ -36,9 +31,7 @@ std::streambuf::int_type NetworkBuff::underflow(){
     inputBuffer.clear();
     inputBuffer.resize(readsize + 1);
 
-    auto readMethod = listOfRead.front();
-
-    int bytesread = readMethod(socket, &inputBuffer[0], static_cast<int>(readsize));
+    int bytesread = read(socket, &inputBuffer[0], static_cast<int>(readsize));
 
     if(bytesread == 0) {
         return traits_type::eof();
@@ -51,51 +44,38 @@ std::streambuf::int_type NetworkBuff::underflow(){
     return traits_type::to_int_type(*gptr());
 }
 
-NetworkBuff::NetworkBuff() {
-    srand (time(NULL));
-    std::cout<< (int)(rand()) << "  buffer index" << std::endl;
+NetworkBuff::NetworkBuff(int socket) {
+    this->socket = socket;
 }
 
-void NetworkBuff::setReadMethod(std::function<int(int, char *, size_t)> readMethod) {
-    listOfRead.push_back(readMethod);
-    std::cout<< listOfRead.size() << "  " << std::endl;
-}
-
-void* SocketServer::gameThread(void *param)
+void SocketServer::gameThread(void *param)
 {
     pthread_detach(pthread_self());
 
     Params params = *((Params*)param);
 
     int sockt = *params.socket;
-    NetworkBuff *networkBuff = params.buffor;
+    NetworkBuff networkBuff = NetworkBuff(sockt);
 
-    networkBuff->setReadMethod( [](auto fd,auto buf,auto nbyte) -> int {
-        return read(fd, &buf[0], static_cast<int>(nbyte));
-    } );
-
-    auto bufferCin = std::cin.rdbuf();
-    auto bufferCout = std::cout.rdbuf();
-    std::cout.rdbuf(networkBuff);
-    std::cin.rdbuf(networkBuff);
+    std::istream cin = std::istream(&networkBuff);
+    std::ostream cout = std::ostream(&networkBuff);
 
     std::string line;
-    auto *tqCommandLine = new TQCommandLine([networkBuff, &sockt](){
-        networkBuff->setSocket(sockt);
+    auto tqCommandLine = new TQCommandLine([&cout](std::basic_stringstream<char>& print) {
+        cout << print.str();
+        print.str(std::string());
     });
     tqCommandLine->invitation();
     bool endGame = true;
     while (endGame) {
-        std::cout << std::endl << ">";
+        cout << std::endl << ">";
 
-        getline(std::cin, line);
+        getline(cin, line);
 
         endGame = !tqCommandLine->analyzeCommand(line);
     }
 
     close(sockt);
-    std::cout.rdbuf(bufferCout);
-    std::cin.rdbuf(bufferCin);
     pthread_exit(NULL);
 }
 
@@ -122,17 +102,15 @@ void SocketServer::server() {
            sizeof(serv_addr)) < 0)
            error("ERROR on binding");
 
-    socketBuffer = new NetworkBuff();
-
     listen(sockfd,5);
 
     clilen = sizeof(cli_addr);
 
     while((newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, &clilen))){
       std::cout << "player connected" << std::endl;
-      Params params = {&newsockfd, &*socketBuffer};
+      Params params = {&newsockfd};
       pthread_t t;
-      pthread_create(&t, 0, gameThread, &params);
+      pthread_create(&t, 0, (void *(*)(void *))gameThread, &params);
     }
 
     close(sockfd);

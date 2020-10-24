@@ -79,8 +79,14 @@ namespace gameType {
         double time;
     };
 
+    struct Backpack {
+        int64_t max;
+        std::vector<int64_t> items;
+    };
+
     struct Player {
         std::string name;
+        Backpack backpack;
         std::vector<PlayerAttribute> attributes;
     };
 
@@ -123,6 +129,9 @@ namespace nlohmann {
 
     void from_json(const json & j, gameType::PlayerAttribute & x);
     void to_json(json & j, const gameType::PlayerAttribute & x);
+
+    void from_json(const json & j, gameType::Backpack & x);
+    void to_json(json & j, const gameType::Backpack & x);
 
     void from_json(const json & j, gameType::Player & x);
     void to_json(json & j, const gameType::Player & x);
@@ -251,14 +260,27 @@ namespace nlohmann {
         j["time"] = x.time;
     }
 
+    inline void from_json(const json & j, gameType::Backpack& x) {
+        x.max = j.at("max").get<int64_t>();
+        x.items = j.at("items").get<std::vector<int64_t>>();
+    }
+
+    inline void to_json(json & j, const gameType::Backpack & x) {
+        j = json::object();
+        j["max"] = x.max;
+        j["items"] = x.items;
+    }
+
     inline void from_json(const json & j, gameType::Player& x) {
         x.name = j.at("name").get<std::string>();
+        x.backpack = j.at("backpack").get<gameType::Backpack>();
         x.attributes = j.at("attributes").get<std::vector<gameType::PlayerAttribute>>();
     }
 
     inline void to_json(json & j, const gameType::Player & x) {
         j = json::object();
         j["name"] = x.name;
+        j["backpack"] = x.backpack;
         j["attributes"] = x.attributes;
     }
 

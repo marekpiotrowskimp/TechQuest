@@ -6,6 +6,7 @@ CMakeFiles/TechQuest.dir/TQCommandLine.cpp.obj: TQCommandLine.h
 CMakeFiles/TechQuest.dir/TQCommandLine.cpp.obj: TQDataModels.h
 CMakeFiles/TechQuest.dir/TQCommandLine.cpp.obj: TQGameData.h
 CMakeFiles/TechQuest.dir/TQCommandLine.cpp.obj: TQTools.h
+CMakeFiles/TechQuest.dir/TQCommandLine.cpp.obj: server.h
 CMakeFiles/TechQuest.dir/TQCommandLine.cpp.obj: lib/json/single_include/nlohmann/json.hpp
 
 CMakeFiles/TechQuest.dir/TQDataModels.cpp.obj: TQDataModels.cpp
