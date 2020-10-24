@@ -35,6 +35,22 @@ std::vector<gameType::ItemAction>::iterator TQCommandLine::getPlaceActionsIter(i
     return find_if(place->actions.begin(), place->actions.end(), [&actionIndex](const gameType::ItemAction& obj){ return obj.id == actionIndex;});
 }
 
+std::vector<gameType::Item>::iterator TQCommandLine::getItemIter(int itemIndex) const {
+    return find_if(tqGameData->gameData.items.begin(), tqGameData->gameData.items.end(), [&itemIndex](const gameType::Item& obj){ return obj.id == itemIndex;});
+}
+
+std::vector<int64_t>::iterator TQCommandLine::getPlaceItemIter(int itemIndex, const std::vector<gameType::Place, std::allocator<gameType::Place>>::iterator &place) const {
+    return find_if(place->items.begin(), place->items.end(), [&itemIndex](const int64_t& obj){ return obj == itemIndex;});
+}
+
+std::vector<int64_t>::iterator TQCommandLine::getBackpackItemIter(int itemIndex) const {
+    return find_if(tqGameData->gameData.player.backpack.items.begin(), tqGameData->gameData.player.backpack.items.end(), [&itemIndex](const int64_t& obj){ return obj == itemIndex;});
+}
+
+std::vector<gameType::ItemAction>::iterator TQCommandLine::getItemActionIter(int actionIndex, const std::vector<gameType::Item, std::allocator<gameType::Item>>::iterator &item) const {
+    return find_if(item->actions.begin(), item->actions.end(), [&actionIndex](const gameType::ItemAction& obj){ return obj.id == actionIndex;});
+}
+
 bool TQCommandLine::analyzeCommand(std::string line) {
 
     std::vector<std::string> commandsParts = TQTools::split(line);
@@ -76,6 +92,9 @@ bool TQCommandLine::analyzeCommand(std::string line) {
         case 9:
             getItem(commandsParts);
             break;
+        case 10:
+            dropItem(commandsParts);
+            break;
         case 100:
             tqGameData->saveGameState();
             print << "Game saved " << std::endl;
@@ -114,48 +133,104 @@ void TQCommandLine::getItem(std::vector<std::string> commandsParts) {
     if (commandsParts.empty()) {
         return;
     }
-    int actionIndex = std::stoi(commandsParts.front());
+    int itemIndex = std::stoi(commandsParts.front());
     auto place = getPlaceIter(tqGameData->gameData.state.placeIndex);
-    if (place != tqGameData->gameData.places.end()) {
-        auto placeAction = getPlaceActionsIter(actionIndex, place);
-        if (placeAction != place->actions.end()) {
-            auto actionIter = getActionIter(placeAction->id);
-            auto newPlace = getPlaceIter((int)placeAction->value);
-            if ((newPlace != tqGameData->gameData.places.end()) && (actionIter != tqGameData->gameData.actions.end())) {
-                tqGameData->gameData.state.placeIndex = placeAction->value;
-                updatePlayerAttributes(actionIter->influence);
+    auto placeItemIter = getPlaceItemIter(itemIndex, place);
+    if (placeItemIter != place->items.end()) {
+        auto item = getItemIter(itemIndex);
+        if (item != tqGameData->gameData.items.end()) {
+            if (tqGameData->gameData.player.backpack.items.size() < tqGameData->gameData.player.backpack.max) {
+                tqGameData->gameData.player.backpack.items.push_back(itemIndex);
+                place->items.erase(placeItemIter);
+                wait(waitTimeMultiply);
+                showPlace();
+                showBackpack();
+            } else {
+                print << "Backpack is full" << std::endl;
+                syncData(print);
             }
+        } else {
+            print << "Item not found" << std::endl;
+            syncData(print);
         }
+    } else {
+        print << "Item not found" << std::endl;
+        syncData(print);
     }
-    wait(waitTimeMultiply);
-    showPlace();
 }
 
-void TQCommandLine::useItem(std::vector<std::string> commandsParts) {
+void TQCommandLine::dropItem(std::vector<std::string> commandsParts) {
     if (commandsParts.empty()) {
         return;
     }
-    int actionIndex = std::stoi(commandsParts.front());
+    int itemIndex = std::stoi(commandsParts.front());
+    auto backpackItemIter = getBackpackItemIter(itemIndex);
     auto place = getPlaceIter(tqGameData->gameData.state.placeIndex);
-    if (place != tqGameData->gameData.places.end()) {
-        auto placeAction = getPlaceActionsIter(actionIndex, place);
-        if (placeAction != place->actions.end()) {
-            auto actionIter = getActionIter(placeAction->id);
-            auto newPlace = getPlaceIter((int)placeAction->value);
-            if ((newPlace != tqGameData->gameData.places.end()) && (actionIter != tqGameData->gameData.actions.end())) {
-                tqGameData->gameData.state.placeIndex = placeAction->value;
-                updatePlayerAttributes(actionIter->influence);
-            }
+    if (backpackItemIter != tqGameData->gameData.player.backpack.items.end()) {
+        auto item = getItemIter(itemIndex);
+        if (item != tqGameData->gameData.items.end()) {
+
+            tqGameData->gameData.player.backpack.items.erase(backpackItemIter);
+            place->items.push_back(itemIndex);
+            wait(waitTimeMultiply);
+            showPlace();
+            showBackpack();
+
+        } else {
+            print << "Item not found" << std::endl;
+            syncData(print);
         }
+    } else {
+        print << "Item not found" << std::endl;
+        syncData(print);
     }
-    wait(waitTimeMultiply);
-    showPlace();
+}
+
+void TQCommandLine::useItem(std::vector<std::string> commandsParts) {
+    if ((commandsParts.empty()) || (commandsParts.size() < 2)) {
+        print << "Error command" << std::endl;
+        syncData(print);
+        return;
+    }
+
+    auto partCommand = commandsParts.front();
+    commandsParts.erase(commandsParts.begin());
+    int itemIndex = std::stoi(partCommand);
+    partCommand = commandsParts.front();
+    int actionIndex = std::stoi(partCommand);
+
+    auto backpackItemIter = getBackpackItemIter(itemIndex);
+    if (backpackItemIter != tqGameData->gameData.player.backpack.items.end()) {
+        auto item = getItemIter(itemIndex);
+
+        auto  actionItemIter = getItemActionIter(actionIndex, item);
+
+        if ((item != tqGameData->gameData.items.end()) && (actionItemIter != item->actions.end())) {
+            tqGameData->gameData.player.backpack.items.erase(backpackItemIter);
+            auto actionIter = getActionIter(actionItemIter->id);
+            wait(waitTimeMultiply);
+            if (actionIter != tqGameData->gameData.actions.end()) {
+                updatePlayerAttributes(actionIter->influence);
+                if ((actionIter->type == "read") && (!item->resources.empty())) {
+                    print << getfile(item->resources) << std::endl;
+                }
+            }
+            syncData(print);
+            showPlayer();
+        } else {
+            print << "Item or action not found" << std::endl;
+            syncData(print);
+        }
+    } else {
+        print << "Item not found" << std::endl;
+        syncData(print);
+    }
 }
 
 void TQCommandLine::discoverItems(int placeIndex) {
     auto placeIter = getPlaceIter(placeIndex);
     placeIter->discovered = true;
-    showItems(placeIter->items);
+    showItems(placeIter->items, true);
 }
 
 void TQCommandLine::updatePlayerAttributes(std::vector<gameType::Influence> influences) {
@@ -174,11 +249,17 @@ void TQCommandLine::invitation() {
     syncData(print);
 }
 
-void TQCommandLine::showItems(std::vector<int64_t> items) {
-    print << "--- Items ---" << std::endl;
+void TQCommandLine::showItems(std::vector<int64_t> items, bool header) {
+    if (header) { print << "--- Items ---" << std::endl; }
     for (auto item : items) {
-        auto itemIter = find_if( tqGameData->gameData.items.begin(), tqGameData->gameData.items.end(), [&item](const gameType::Item& obj){ return obj.id == item;});
-        print << "(" << std::setw(3) << itemIter->id << ")" << std::setw(10) << itemIter->name << "  -  " << itemIter->description << " actions " <<  /*placeAction->name <<*/ std::endl;
+        auto itemIter = getItemIter(item);
+
+        print << "(" << std::setw(3) << itemIter->id << ")" << std::setw(10) << itemIter->name << "  -  " << itemIter->description << " | actions: ";
+        for (auto actionItem : itemIter->actions) {
+            auto actionIter = getActionIter(actionItem.id);
+            print << "(" << std::setw(3) << actionIter->id << ") "  << std::setw(5) << actionIter->name << " - " << actionIter->description << " | ";
+        }
+        print << std::endl;
     }
     syncData(print);
 }
@@ -197,19 +278,28 @@ void TQCommandLine::showPlace() {
             }
         }
         if (place->discovered) {
-            showItems(place->items);
+            showItems(place->items, true);
         }
     }
+    print << std::endl;
     syncData(print);
 }
+
+void TQCommandLine::showBackpack() {
+    print << "--- Backpack ---" << std::endl;
+    print << "Max items: " << tqGameData->gameData.player.backpack.max << std::endl;
+    showItems(tqGameData->gameData.player.backpack.items, false);
+}
+
 
 void TQCommandLine::showPlayer() {
     print << "Player " << tqGameData->gameData.player.name << std::endl;
     for (auto attribute : tqGameData->gameData.player.attributes) {
         auto attributeDesc = getAttribute(attribute.id);
-        print << " " << std::setw(10) << attributeDesc.name << " [" << std::setw(3) << attributeDesc.min << "-"  << std::setw(3) << attributeDesc.max << "]" << "  " << attribute.value  << std::endl;
+        print << " " << std::setw(15) << attributeDesc.name << " [" << std::setw(3) << attributeDesc.min << "-"  << std::setw(3) << attributeDesc.max << "]" << "  " << attribute.value  << std::endl;
     }
     syncData(print);
+    showBackpack();
 }
 
 void TQCommandLine::showHelp() {
@@ -255,6 +345,7 @@ void TQCommandLine::wait(double multiply) {
     print << "[END]" << std::endl;
     syncData(print);
 }
+
 
 
 

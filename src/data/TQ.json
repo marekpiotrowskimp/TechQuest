@@ -19,8 +19,8 @@
     {"id": 7, "name": "Use", "description": "You can use this item", "type": "use", "influence": [{"id": 6, "value": 10}]}
   ],
   "items" : [
-    {"id": 1, "name": "Image file", "description": "File with information in image", "resources": "TechQuest.txt", "type": 1, "actions": [{"id": 6, "value": 0}]},
-    {"id": 2, "name": "Document file", "description": "Some information", "resources": "", "type": 2, "actions": [{"id": 5, "value": 0}]},
+    {"id": 1, "name": "Image file", "description": "File with information in image", "resources": "pic2.txt", "type": 1, "actions": [{"id": 6, "value": 0}]},
+    {"id": 2, "name": "Document file", "description": "Some information", "resources": "Welcome.txt", "type": 2, "actions": [{"id": 5, "value": 0}]},
     {"id": 3, "name": "Energy", "description": "Some energy", "resources": "", "type": 3, "actions": [{"id": 7, "value": 0}]}
   ],
   "attributes": [
@@ -52,8 +52,9 @@
     {"id": 5, "command": "where", "description": "Show where you are."},
     {"id": 6, "command": "action", "description": "Execute action."},
     {"id": 7, "command": "discover", "description": "Discover items in place."},
-    {"id": 8, "command": "use", "description": "Use a item"},
+    {"id": 8, "command": "use", "description": "Action on item"},
     {"id": 9, "command": "get", "description": "Get a item"},
+    {"id": 10, "command": "drop", "description": "Drop a item"},
     {"id": 99, "command": "---------", "description": "-------------"},
     {"id": 100, "command": "end", "description": "End of TechQuest."},
     {"id": 101, "command": "clear", "description": "Clear screen."}
